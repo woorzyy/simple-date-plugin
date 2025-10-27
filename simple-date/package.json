@@ -1,0 +1,23 @@
+{
+	"name": "simple-date",
+	"displayName": "Simple Date",
+	"description": "Insert current date quickly",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "simple-date.insertDate",
+				"title": "Insert Current Date"
+			}
+		]
+	},
+	"scripts": {},
+	"devDependencies": {}
+}
